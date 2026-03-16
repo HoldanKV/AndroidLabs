@@ -30,6 +30,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  http: ^1.1.0  # Для HTTP запросов
+  intl: ^0.18.1 # Для форматирования дат
+  shared_preferences: ^2.2.2  # Добавьте эту строку
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
